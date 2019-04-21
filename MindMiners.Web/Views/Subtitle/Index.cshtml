@@ -1,0 +1,56 @@
+﻿@model IList<MindMiners.Domain.Entities.SubtitleEntity>
+@{
+    ViewData["Title"] = "Index";
+}
+<form method="post" enctype="multipart/form-data" asp-controller="Subtitle" asp-action="AddTimeToStr">
+    <div class="form-group">
+        <div class="col-md-10">
+            <p>Upload one or more files using this form:</p>
+            <input type="file" name="files">
+            <input type="text" name="timeAdd" />
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-10">
+            <input type="submit" value="Upload">
+        </div>
+    </div>
+</form>
+
+<h1>Legendas Enviadas</h1>
+<table style="border:1px solid black">
+    <tr>
+        <th>
+            Nome
+        </th>
+        <th>
+            Nome Original
+        </th>
+        <th>
+            Tempo Adicionado
+        </th>
+        <th>
+            Download
+        </th>
+    </tr>
+    @foreach(var line in Model)
+    {
+    <tr style="border:1px solid black">
+        <td style="border:1px solid black">
+            @line.Name
+        </td>
+        <td style="border:1px solid black">
+            @line.OriginalName
+        </td>
+        <td style="border:1px solid black">
+            @line.TimeAdded
+        </td>
+        <td style="border:1px solid black">
+            @Html.ActionLink("Download", "Download", "Subtitle", new { name = line.Name }, null)
+        </td>
+
+
+    </tr>
+    }
+
+</table>

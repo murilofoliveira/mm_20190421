@@ -1,0 +1,8 @@
+C:\Projetos\Testes\MindMiners\MindMiners.Domain\bin\Debug\netcoreapp2.2\MindMiners.Domain.deps.json
+C:\Projetos\Testes\MindMiners\MindMiners.Domain\bin\Debug\netcoreapp2.2\MindMiners.Domain.dll
+C:\Projetos\Testes\MindMiners\MindMiners.Domain\bin\Debug\netcoreapp2.2\MindMiners.Domain.pdb
+C:\Projetos\Testes\MindMiners\MindMiners.Domain\obj\Debug\netcoreapp2.2\MindMiners.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\Testes\MindMiners\MindMiners.Domain\obj\Debug\netcoreapp2.2\MindMiners.Domain.AssemblyInfoInputs.cache
+C:\Projetos\Testes\MindMiners\MindMiners.Domain\obj\Debug\netcoreapp2.2\MindMiners.Domain.AssemblyInfo.cs
+C:\Projetos\Testes\MindMiners\MindMiners.Domain\obj\Debug\netcoreapp2.2\MindMiners.Domain.dll
+C:\Projetos\Testes\MindMiners\MindMiners.Domain\obj\Debug\netcoreapp2.2\MindMiners.Domain.pdb
